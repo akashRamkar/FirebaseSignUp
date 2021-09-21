@@ -4,4 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    android:background="@color/silver_white"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/firebase_logo"
+        android:layout_width="203dp"
+        android:layout_height="267dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/firebase_icon" />
+
+    <TextView
+        android:id="@+id/logotitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+       app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textSize="38sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/light_orange"
+        android:textAlignment="center"
+        android:textStyle="italic"
+
+        app:layout_constraintTop_toBottomOf="@id/firebase_logo"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

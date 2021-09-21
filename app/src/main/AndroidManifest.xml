@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FirebaseSigninDemo">
         <activity
+            android:name=".SignInActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true" />
+        <activity
             android:name=".SignupActivity"
             android:exported="true" />
         <activity

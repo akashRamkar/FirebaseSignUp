@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">FirebaseSigninDemo</string>
+    <string name="sign_up_here">Sign Up Here</string>
+    <string name="authentication_window">Authentication Window</string>
+    <string name="password">password</string>
+    <string name="sign_in_here">sign in here</string>
 </resources>
