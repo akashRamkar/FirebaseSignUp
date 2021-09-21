@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "356577638365",
+    "project_id": "fir-signindemo-c41ef",
+    "storage_bucket": "fir-signindemo-c41ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356577638365:android:bf0f26773908db6fb4a834",
+        "android_client_info": {
+          "package_name": "com.example.firebasesignindemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356577638365-14mk534dd4b0aqs312vvbje8ija0l0no.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebasesignindemo",
+            "certificate_hash": "1686a1184f44eef88c9f5fb23b1347d91296392f"
+          }
+        },
+        {
+          "client_id": "356577638365-c1n9r6gu8bgbha0l6l0dape7uokdr70a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfZnlqUccsereUeeRTOQJjTBGWvRuSyeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "356577638365-c1n9r6gu8bgbha0l6l0dape7uokdr70a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
