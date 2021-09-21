@@ -89,6 +89,6 @@ static String userEmail,userPassword;
 
     public void gotoSigninActivity(View view) {
         startActivity(new Intent(SignupActivity.this,SignInActivity.class));
-
+        finish();
     }
 }

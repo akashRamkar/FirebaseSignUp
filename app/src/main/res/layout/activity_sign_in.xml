@@ -83,5 +83,17 @@
         android:onClick="signInUserCredentials">
 
     </com.google.android.material.button.MaterialButton>
+    <TextView
+        android:id="@+id/signup_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="click here to sign up"
+        android:layout_marginTop="7dp"
+        android:onClick="gotoSignUpActivity"
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/signin_btn"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

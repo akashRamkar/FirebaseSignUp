@@ -57,6 +57,7 @@ public class SignInActivity extends AppCompatActivity {
                                 if(task.isSuccessful()){
                                 showThisToastOnUIThread(SignInActivity.this,"Signin successfull");
                                     startActivity(new Intent(SignInActivity.this,HomeActivity.class));
+                                    finish();
                                 }else{
                                     showThisToastOnUIThread(SignInActivity.this,"signin failed");
                                 }
@@ -67,5 +68,10 @@ public class SignInActivity extends AppCompatActivity {
             });
         }
 
+    }
+
+    public void gotoSignUpActivity(View view) {
+        startActivity(new Intent(SignInActivity.this,SignupActivity.class));
+        finish();
     }
 }
